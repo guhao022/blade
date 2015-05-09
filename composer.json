@@ -1,0 +1,21 @@
+{
+    "name": "golune/laravel-blade",
+    "description": "laravel-blade",
+    "keywords": ["laravel", "blade"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "guhao",
+            "email": "378999587@qq.com"
+        }
+    ],
+    "require": {
+        "illuminate/view": "~5",
+        "illuminate/events": "~5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Golune\\Blade\\": "src"
+        }
+    }
+}
